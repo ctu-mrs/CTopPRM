@@ -1,0 +1,30 @@
+location: .gitman_sources
+sources:
+- name: flann
+  type: git
+  repo: git@github.com:penickar/flann.git
+  sparse_paths:
+  -
+  rev: master
+  link: lib/flann
+  scripts:
+  -
+- name: cnpy
+  type: git
+  repo: https://github.com/rogersce/cnpy
+  sparse_paths:
+  -
+  rev: master
+  link: lib/cnpy
+  scripts:
+  -
+- name: mesh-voxelization
+  type: git
+  repo: git@github.com:penickar/mesh-voxelization.git
+  sparse_paths:
+  -
+  rev: master
+  link: lib/mesh-voxelization
+  scripts:
+  -
+  

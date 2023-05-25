@@ -1,0 +1,68 @@
+sampling_pos_min_max: [[-7.0 , 7.0],   #x
+                       [-7.0 , 7.0],      #y
+                       [-7.0 , 7.0]]  #z
+                          
+                          
+sampling_vel_min_max: [[-10.0 , 10.0],  #x
+                       [-10.0 , 10.0],      #y
+                       [-10.0 , 10.0]]  #z
+                    
+
+#distance = pos_scale* pos_distance + att_scale * quat_distance + vel_scale * vel_distance + omega_scale * rate_distance
+pos_scale: 1.0
+att_scale: 15.0
+vel_scale: 1.0
+omega_scale: 1.0      
+#maximal distance in quaternions is 2.0!!!!!
+
+logfile: results.log
+
+
+# forest0 spec begin
+check_collisions: true
+map: blender/random_columns.obj.npy
+map_type: ESDF
+min_clearance: 0.4
+start:
+  position: [0.0,-6.0,1.3]
+  velocity: [0 , 0 , 0]
+end:
+  position: [0.0,7.5,1.3]
+  velocity: [0 , 0 , 0]
+gates: []
+gates_orientations: [90, 0]    
+
+planar: true
+
+goal_bias: 0.05
+
+rand_rotate_rotation_vector_ang: 0.2
+rand_rotate_rotation_vector_ang_goal_bias: 0.05
+
+max_dist_from_reference: 3.0
+
+bias_start_from_previous_gate: 0.1 #how ofter to start from some of the nodes reaching 
+bias_use_reference_reach_gate_commands: 0.1 #how often to use the commands that reached the current gate
+
+#distance where to search for the best node around the random created
+dv: 1.30   
+#dv: 3.00   
+#distance considered for creation new witness
+#ds: 1.50
+ds: 0.50
+
+num_clusters: 2
+min_clusters: 15
+max_clusters: 25
+
+max_path_length_ratio: 1.8
+
+min_ratio: 1.05
+min_cluster_distance: 0.0
+
+#topological PRM Parameters
+cutoof_distance_ratio_to_shortest: 1.1 #what is the ration of length compared to shortest, when paths are not considered
+ellipse_ratio_major_axis_focal_length: 1.25 # ratio between length of 2 major axis and focal length
+
+collision_distance_check: 0.1
+num_samples_between_gate: 500
