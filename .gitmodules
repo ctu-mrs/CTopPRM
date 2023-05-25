@@ -1,0 +1,6 @@
+[submodule "lib/tclap-code"]
+	path = lib/tclap-code
+	url = git://git.code.sf.net/p/tclap/code
+[submodule "lib/cnpy"]
+	path = lib/cnpy
+	url = https://github.com/rogersce/cnpy
