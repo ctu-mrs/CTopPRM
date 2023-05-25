@@ -30,9 +30,9 @@ The code has been developed and tested on Ubuntu 22.04.
 ### Downloading the code
 Clone the repository and update the submodules
 
-`git clone git@mrs.felk.cvut.cz:penicrob/topological_planning.git`
+`git clone git@github.com:ctu-mrs/CTopPRM.git`
 
-`cd topological_planning/`
+`cd CTopPRM/`
 
 `git submodule update --init --recursive`
 
