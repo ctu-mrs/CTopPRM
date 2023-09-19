@@ -1,21 +1,22 @@
 # CTopPRM: Clustering Topological PRM for Planning Multiple Distinct Paths in 3D Environments
-This repository contains the code for **CTopPRM: Clustering Topological PRM for Planning Multiple Distinct Paths in 3D Environments** presented in our paper [Novosad, Penicka, Vonasek arXiv'23](https://arxiv.org/abs/2305.13969).
+This repository contains the code for **CTopPRM: Clustering Topological PRM for Planning Multiple Distinct Paths in 3D Environments** presented in our paper [Novosad, Penicka, Vonasek CTopPRM'23](https://arxiv.org/abs/2305.13969).
 [![plot](./figs/title_1.jpg)](https://www.youtube.com/watch?v=azNrWBU5cAk/)
 
 ## Citing
 If you use this code in an academic context, please cite the following publication:
 
-M. Novosad, R. Pěnička, and V. Vonásek, **CTopPRM: Clustering topological PRM for planning
-multiple distinct paths in 3D environments** 2023., arXiv: [2305.13969](https://arxiv.org/abs/2305.13969) [cs.RO]. ([PDF](https://arxiv.org/pdf/2305.13969.pdf))
+M. Novosad, R. Penicka and V. Vonasek, "CTopPRM: Clustering Topological PRM for Planning Multiple Distinct Paths in 3D Environments," in IEEE Robotics and Automation Letters, doi: 10.1109/LRA.2023.3315539. ([PDF](https://arxiv.org/pdf/2305.13969.pdf))
 
 ```bash
-@misc{novosad2023ctopprm,
-      title={CTopPRM: Clustering Topological PRM for Planning Multiple Distinct Paths in 3D Environments}, 
-      author={Matej Novosad and Robert Penicka and Vojtech Vonasek},
-      year={2023},
-      eprint={2305.13969},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
+@ARTICLE{10251650,
+  author={Novosad, Matej and Penicka, Robert and Vonasek, Vojtech},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={CTopPRM: Clustering Topological PRM for Planning Multiple Distinct Paths in 3D Environments}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/LRA.2023.3315539}}
 }
 ```
 
