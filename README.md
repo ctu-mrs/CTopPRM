@@ -39,6 +39,9 @@ Clone the repository and update the submodules
 
 `gitman update`
 
+You might have to install gitman first
+`pip install gitman`
+
 ### Compilation and dependencies
 Install the following dependencies
 
@@ -59,6 +62,10 @@ To create the ESDF maps from the mesh .obj fles use the map.py script in the pyt
 `source env/bin/activate`
 
 Afterwards install the python dependencies using pip (or pip3 if python3 is not default):
+
+`pip install setuptools~=57.5.0`
+
+`pip install scikit-learn`
 
 `pip install wheel`
 
