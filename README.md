@@ -5,18 +5,18 @@ This repository contains the code for **CTopPRM: Clustering Topological PRM for 
 ## Citing
 If you use this code in an academic context, please cite the following publication:
 
-M. Novosad, R. Penicka and V. Vonasek, "CTopPRM: Clustering Topological PRM for Planning Multiple Distinct Paths in 3D Environments," in IEEE Robotics and Automation Letters, doi: 10.1109/LRA.2023.3315539. ([PDF](https://arxiv.org/pdf/2305.13969.pdf))
+M. Novosad, R. Penicka and V. Vonasek, "CTopPRM: Clustering Topological PRM for Planning Multiple Distinct Paths in 3D Environments," in IEEE Robotics and Automation Letters, vol. 8, no. 11, pp. 7336-7343, Nov. 2023, doi: 10.1109/LRA.2023.3315539. ([PDF](https://arxiv.org/pdf/2305.13969.pdf))
 
 ```bash
-@ARTICLE{10251650,
+@ARTICLE{novosad2023ctopprm,
   author={Novosad, Matej and Penicka, Robert and Vonasek, Vojtech},
   journal={IEEE Robotics and Automation Letters}, 
   title={CTopPRM: Clustering Topological PRM for Planning Multiple Distinct Paths in 3D Environments}, 
   year={2023},
-  volume={},
-  number={},
-  pages={1-8},
-  doi={10.1109/LRA.2023.3315539}}
+  volume={8},
+  number={11},
+  pages={7336-7343},
+  doi={10.1109/LRA.2023.3315539}
 }
 ```
 
